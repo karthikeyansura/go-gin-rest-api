@@ -1,4 +1,4 @@
-module web-service-gin
+module github.com/karthikeyansura/CS6650/HW1a
 
 go 1.25
 
