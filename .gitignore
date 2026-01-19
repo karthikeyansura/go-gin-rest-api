@@ -3,3 +3,5 @@
 HW1b/hw1b-server-linux
 *.pem
 .venv/
+*.pdf
+*.zip
