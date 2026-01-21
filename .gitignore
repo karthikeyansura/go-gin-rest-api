@@ -5,3 +5,4 @@ HW1b/hw1b-server-linux
 .venv/
 *.pdf
 *.zip
+*.key

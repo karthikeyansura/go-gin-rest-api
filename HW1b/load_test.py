@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Your AWS Server URL
-EC2_URL = "http://16.148.60.9:8080/albums"
+EC2_URL = "http://23.23.58.225:8080/albums"
 
 def load_test(url, duration_seconds=30):
     response_times = []
