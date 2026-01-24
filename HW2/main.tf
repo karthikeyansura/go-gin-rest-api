@@ -40,6 +40,13 @@ resource "aws_security_group" "ssh" {
     protocol    = "tcp"
     cidr_blocks = [var.ssh_cidr]
   }
+  ingress {
+    description = "Go Web App"
+    from_port   = 8080
+    to_port     = 8080
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
   egress {
     from_port   = 0
     to_port     = 0
