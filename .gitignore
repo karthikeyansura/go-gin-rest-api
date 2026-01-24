@@ -1,8 +1,27 @@
+# IDE / OS
 .idea/
 .DS_Store
-HW1b/hw1b-server-linux
-*.pem
+
+# Virtual environments
 .venv/
+
+HW1b/hw1b-server-linux
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.backup
+*.log
+.terraform.lock.hcl
+
+# Keys
+*.pem
+*.key
+*.csv
+
+# Variables files
+*.tfvars
+
 *.pdf
 *.zip
-*.key
